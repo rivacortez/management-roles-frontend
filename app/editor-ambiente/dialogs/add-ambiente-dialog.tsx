@@ -75,6 +75,7 @@ export function AmbienteDialog({
         <Dialog open={isOpen} onOpenChange={onClose}>
             <DialogContent>
                 <DialogHeader>
+                    <h1></h1>
                     <DialogTitle>
                         {consumoInicial ? 'Editar Registro' : 'Nuevo Registro'}
                     </DialogTitle>
